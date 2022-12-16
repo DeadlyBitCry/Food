@@ -1,0 +1,36 @@
+<style>
+    .box {
+        height: 600px;
+        width: 600px;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow-y: auto;
+    }
+
+    .first-child {
+        height: 80px;
+        position: sticky;
+        top: 0;
+    }
+
+    .second-child {
+        flex-grow: 1;
+    }
+
+    .third-child {
+        height: 5000px;
+    }
+</style>
+<div class="box">
+    <div class="first-child">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, minima.
+    </div>
+    <div class="second-child">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quisquam?
+    </div>
+    <div class="third-child">
+
+    </div>
+</div>
